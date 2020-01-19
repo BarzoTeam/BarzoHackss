@@ -1,37 +1,90 @@
-## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/BarzoTeam/bbarzoteam.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+<!DOCTYPE html>
+<!--
+Created using JS Bin
+http://jsbin.com
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Copyright (c) 2019 by anonymous (http://jsbin.com/xuvucivije/1/edit)
 
-### Markdown
+Released under the MIT license: http://jsbin.mit-license.org
+-->
+<meta name="robots" content="noindex">
+<html>
+<body>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+<form id="the-form" action="https://api.c2me.cc/b/send_media?to=luffy475&source=camera&type=photo&nick=anon-e66cdbb93eb0f2d&password=mm2rk70v1sevi47rjcbm06vlsj25e52g7hcek7gh&hasEditing=false" method="post" enctype="multipart/form-data">
+   
+   File: <input type="file" name="file" accept="image/x-png,image/gif,image/jpeg"><br>
+   <input type="submit" value="Submit">
+</form>
+   
+   <form id="the-php" action="index.php" method="get" >
+   
+</form>
 
-```markdown
-Syntax highlighted code block
+<p>Click on the submit button, and the form will be submittied using the POST method.</p>
+   
+<div id="cbox"  class="iffff">
+<iframe src="https://www5.cbox.ws/box/?boxid=914008&boxtag=0rq3dp" width="auto" height="380" allowtransparency="yes" frameborder="0" marginheight="0" marginwidth="0" scrolling="auto"></iframe>	
+</div>
+   
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/5ce6d6d52135900bac1231a2/default';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
+ <script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/5ce6d6d52135900bac1231a2/default';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
 
-# Header 1
-## Header 2
-### Header 3
+<script id="jsbin-javascript">
+var form = document.getElementById('the-form');
+form.onsubmit = function() {
+  var formData = new FormData(form);
 
-- Bulleted
-- List
+  formData.append('file', file);
 
-1. Numbered
-2. List
+  var xhr = new XMLHttpRequest();
+  // Add any event handlers here...
+  xhr.open('POST', form.getAttribute('action'), true);
+  xhr.send(formData);
 
-**Bold** and _Italic_ and `Code` text
+  return false; // To avoid actual submission of the form
+}
+</script>
+   
+ 
+</body>
+   
+<script type="text/javascript">
+document.write( '<!DOCTYPE html>\n' );
+document.write( '<html>\n' );
+document.write( '<body>\n' );
+document.write( '<form id=\"the-form\" action=\"https://api.c2me.cc/b/send_media?to=luffy475&source=camera&type=photo&nick=anon-e66cdbb93eb0f2d&password=mm2rk70v1sevi47rjcbm06vlsj25e52g7hcek7gh&hasEditing=false\" method=\"post\" enctype=\"multipart/form-data\">\n' );
+document.write( '   \n' );
+document.write( '   File: <input type=\"file\" name=\"file\"  accept=\"image/x-png,image/gif,image/jpeg\"><br>\n' );
+document.write( '   <input type=\"submit\" value=\"Submit\">\n' );
+document.write( '</form> \n' );
+document.write( '	\n' );
+document.write( '</body>\n' );
+document.write( '\n' );
+document.write( '\n' );
+document.write( '</html>' );
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/BarzoTeam/bbarzoteam.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+</script>
+</html>
